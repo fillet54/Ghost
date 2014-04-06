@@ -1,0 +1,4 @@
+[submodule "content/themes/casper"]
+	path = content/themes/casper
+	url = git://github.com/fillet54/Casper.git
+	branch = philgomez.master
