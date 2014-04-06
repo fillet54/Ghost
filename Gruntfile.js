@@ -927,7 +927,7 @@ var path           = require('path'),
 
         // ### Tools for building assets
 
-        grunt.registerTask('init', 'Prepare the project for development', ['shell:bower', 'default']);
+        grunt.registerTask('init', 'Prepare the project for development', ['default']);
 
         // Before running in production mode
         grunt.registerTask('prod', 'Build JS & templates for production', ['handlebars', 'concat', 'uglify', 'copy:prod']);
